@@ -1,3 +1,6 @@
+/*normalize*/
+@import 'library/normalize';
+
 /*Configuraciones*/
 @import 'config/settings';
 /*Partials*/
@@ -5,8 +8,4 @@
 @import 'partial/helpears';
 @import 'partial/header';
 @import 'partial/free';
-
-
-
-
-
+@import 'partial/tercerBloque';
