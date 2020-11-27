@@ -1,0 +1,95 @@
+/*Configuraciones*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+/*Partials*/
+a {
+  text-decoration: none; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.header {
+  font-family: "Raleway";
+  color: #ffffff;
+  background-image: url("../../img/01.jpg");
+  background-size: cover; }
+
+.menu {
+  float: right;
+  margin-right: 7.2%;
+  margin-top: 57px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 9px;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff; }
+
+.header-content {
+  float: right;
+  margin-top: 290px;
+  margin-bottom: 360px; }
+  .header-content h1 {
+    font-size: 12rem;
+    margin: 0;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1rem; }
+  .header-content p {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bolder; }
+
+button {
+  margin-right: 10px;
+  border-style: none;
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px; }
+  button:hover {
+    background-color: #000000; }
+
+.free-content {
+  width: 67.5%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Raleway"; }
+  .free-content .free-title {
+    margin-top: 90px; }
+  .free-content h2 {
+    font-size: 3.75rem;
+    margin: 0;
+    font-weight: lighter; }
+  .free-content h2 + h2 {
+    font-weight: bolder;
+    margin-bottom: 50px; }
+  .free-content p {
+    font-size: 1.25rem;
+    line-height: 1.9rem; }
+  .free-content p + p {
+    margin-bottom: 72px; }
+
+.free-par {
+  padding-left: 8%;
+  padding-right: 8%;
+  font-weight: bolder; }
+
+.line {
+  width: 5.7%;
+  border: 1px solid #000000;
+  margin: 0 auto;
+  margin-top: 47px;
+  margin-bottom: 62px; }
