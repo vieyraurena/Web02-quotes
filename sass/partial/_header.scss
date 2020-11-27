@@ -1,0 +1,52 @@
+.header{
+  font-family: $font-primary;
+  color: $primary-color;
+  background-image: url("../../img/01.jpg");
+  background-size: cover;
+}
+
+.menu{
+  float: right;
+  margin-right: 7.2%;
+  margin-top: 57px;
+  color: $primary-color;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 9px;
+  border-top: 4px solid $primary-color;
+  border-bottom: 4px solid $primary-color;
+}
+
+.header-content{
+  float: right;
+  margin-top: 290px;
+  margin-bottom: 360px;
+
+  
+  h1{
+    font-size: 12rem;
+    margin: 0;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+  }
+  
+  p{
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+}
+
+button{
+  
+  margin-right: 10px;
+  border-style: none;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px; 
+  
+  &:hover {
+    background-color: $secondary-color; }
+}
+  

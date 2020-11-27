@@ -1,0 +1,44 @@
+.free-content{
+  width: 67.5%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: $font-primary;
+  
+  .free-title{
+    margin-top: 90px;
+  }
+
+  h2{
+    font-size: 3.75rem;
+    margin: 0;
+    font-weight: lighter;
+  }
+
+  h2 + h2 {
+    font-weight: bolder;
+    margin-bottom: 50px;
+  }
+  
+  p{
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+  }
+
+  p + p {
+    margin-bottom: 72px;
+  }
+}
+
+.free-par{
+  padding-left: 8%;
+  padding-right: 8%;
+  font-weight: bolder;
+}
+
+.line{
+  width: 5.7%;
+  border: 1px solid $secondary-color;
+  margin: 0 auto;
+  margin-top: 47px;
+  margin-bottom: 62px;
+}
