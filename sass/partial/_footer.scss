@@ -1,0 +1,18 @@
+.fondo-footer{
+  background-color: $fondo-footer;
+}
+
+.footer {
+  p{
+    width: 50%;
+    margin: 0;
+    padding: 37px 0 37px 0;
+    font-family: $font-secodary;
+    font-size: 1rem;
+  }
+
+  .footer-social{
+    width: 25%;
+    float: right;
+  }
+}
