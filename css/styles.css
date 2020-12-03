@@ -313,6 +313,25 @@ template {
 a {
   text-decoration: none; }
 
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 700; }
+
+h2 {
+  font-family: "Raleway";
+  font-size: 3.75rem; }
+
+.btn {
+  width: 10%;
+  margin: 0 auto;
+  padding: 21px 38px;
+  border: 2px solid #000000;
+  text-align: center;
+  margin-bottom: 141px; }
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -402,6 +421,10 @@ button {
   margin-top: 47px;
   margin-bottom: 62px; }
 
+.container-rosa {
+  width: 100%;
+  margin-bottom: 134px; }
+
 .fondo {
   float: left;
   width: 50%;
@@ -432,4 +455,140 @@ button {
   width: 50%; }
   .columna-img img {
     max-width: 100%;
+    width: 100%;
+    height: 100%; }
+
+.reasons {
+  font-family: "Raleway";
+  margin-bottom: 63px; }
+
+.reasons-columna {
+  width: 50%; }
+  .reasons-columna .box {
+    border: 1px solid #eae9e7;
+    padding: 50px 0 60px 45px;
+    text-align: left; }
+    .reasons-columna .box h3 {
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      margin-top: 0; }
+    .reasons-columna .box p {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      margin-top: 0; }
+    .reasons-columna .box span {
+      font-size: 1.25rem;
+      font-style: italic; }
+
+.uno {
+  float: left; }
+
+.dos {
+  float: right; }
+
+.love {
+  width: 100%;
+  background-image: url("../../img/03.jpg");
+  background-size: cover; }
+  .love .love-content {
+    width: 58%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "Raleway";
+    padding: 205px 0 168px 0;
+    text-align: center; }
+  .love p {
+    font-size: 3.75rem;
+    margin-bottom: 67px; }
+  .love span {
+    font-size: 1.25rem; }
+    .love span a {
+      font-family: "Raleway";
+      font-size: 1.25rem;
+      color: #ffffff;
+      text-decoration-line: underline;
+      text-transform: lowercase;
+      font-weight: normal; }
+
+.fondo-buy {
+  background-color: #f3f4f5;
+  padding-bottom: 120px;
+  margin-bottom: 125px; }
+
+.buy {
+  padding-bottom: 98px; }
+  .buy h2 {
+    padding-top: 105px;
+    margin: 0 0 130px 0; }
+  .buy img {
+    max-width: 100%;
     width: 100%; }
+
+.buy-boxI {
+  float: left; }
+
+.buy-boxII {
+  width: 50%;
+  float: right; }
+  .buy-boxII img {
+    margin-bottom: 50px; }
+
+.buy-boxII-uno img {
+  width: 48%;
+  float: left; }
+
+.buy-boxII-uno img + img {
+  margin-left: 4%; }
+
+.info {
+  font-family: "Montserrat";
+  margin-bottom: 100px; }
+
+.info-columna {
+  width: 20%;
+  float: left;
+  font-size: 1rem; }
+  .info-columna h4 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .info-columna a {
+    font-weight: 200;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+    display: block;
+    margin-bottom: 1rem; }
+  .info-columna p {
+    line-height: 2rem; }
+  .info-columna input {
+    width: 100%;
+    border: none;
+    padding: 14px 0 14px 19px;
+    background-color: #f2f4f5;
+    margin-bottom: 20px; }
+  .info-columna input[type=submit] {
+    width: 50%;
+    background-color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    border: 2px solid #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 25px; }
+
+.info-columna + .info-columna {
+  margin-left: 85px; }
+
+.fondo-footer {
+  background-color: #f2f4f5; }
+
+.footer p {
+  width: 50%;
+  margin: 0;
+  padding: 37px 0 37px 0;
+  font-family: "Montserrat";
+  font-size: 1rem; }
+
+.footer .footer-social {
+  width: 25%;
+  float: right; }
