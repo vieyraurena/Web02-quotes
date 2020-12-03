@@ -1,0 +1,31 @@
+.love { 
+  width: 100%;
+  background-image: url("../../img/03.jpg");
+  background-size: cover;
+
+  .love-content{
+    width: 58%;
+    margin: 0 auto;
+    color: $primary-color;
+    font-family: $font-primary;
+    padding: 205px 0 168px 0;
+    text-align: center;
+  }
+  
+  p{
+    font-size: 3.75rem;
+    margin-bottom: 67px;
+  }
+  span{
+    font-size: 1.25rem;
+    
+    a{
+      font-family: $font-primary;
+      font-size: 1.25rem;
+      color: $primary-color;
+      text-decoration-line: underline;
+      text-transform: lowercase;
+      font-weight: normal;
+    }
+  }
+}
