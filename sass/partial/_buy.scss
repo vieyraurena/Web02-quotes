@@ -1,0 +1,39 @@
+.fondo-buy {
+  background-color: $fondo-body;
+  padding-bottom: 120px;
+  margin-bottom: 125px;
+}
+
+.buy {
+  padding-bottom: 98px;
+  h2{
+    padding-top: 105px;
+    margin: 0 0 130px 0;
+  }
+  img{
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.buy-boxI {
+  float: left;
+}
+
+.buy-boxII {
+  width: 50%;
+  float: right;
+  img{
+    margin-bottom: 50px;
+  }
+}
+
+.buy-boxII-uno{
+  img{
+    width: 48%;
+    float: left;
+  }
+  img + img {
+    margin-left: 4%
+  }
+}
