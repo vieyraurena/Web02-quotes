@@ -1,0 +1,51 @@
+.info {
+  font-family: $font-secodary;
+  margin-bottom: 100px;
+}
+
+.info-columna{
+  width: 20%;
+  float: left;
+  font-size: 1rem;
+
+  h4{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  a{
+    font-weight: 200;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  p{
+    line-height: 2rem;
+  }
+
+  input{
+    width: 100%;
+    border: none;
+    padding: 14px 0 14px 19px;
+    background-color: $fondo-footer;
+    margin-bottom: 20px;
+  }
+  
+  input[type=submit]{
+    width: 50%;
+    background-color: $primary-color;
+    font-family: $font-secodary;
+    font-weight: 700;
+    border: 2px solid $secondary-color;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 25px;
+  }
+}
+
+.info-columna + .info-columna{
+  margin-left:85px;
+}
