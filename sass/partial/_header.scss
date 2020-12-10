@@ -46,15 +46,21 @@
   }
 }
 
-button{
-  
-  margin-right: 10px;
-  border-style: none;
-  padding: 5px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px; 
-  
-  &:hover {
-    background-color: $secondary-color; }
+.dots{
+  width: 250px;
+  margin: 0 auto;
+  padding: 114px;
+
+    button{
+    margin-right: 25px;
+    border-style: none;
+    padding: 8px;
+    background-color: $secondary-color;
+    border-radius: 15px; 
+    
+    &:hover {
+      background-color: rgb(255, 255, 255); 
+    }
+  }
 }
   
