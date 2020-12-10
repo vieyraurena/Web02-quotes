@@ -26,6 +26,10 @@
       text-decoration-line: underline;
       text-transform: lowercase;
       font-weight: normal;
+
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 }
