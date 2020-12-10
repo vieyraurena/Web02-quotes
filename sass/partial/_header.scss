@@ -23,6 +23,10 @@
   padding: 9px;
   border-top: 4px solid $primary-color;
   border-bottom: 4px solid $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
 }
 
 .header-content{
