@@ -3,16 +3,19 @@
 }
 
 .footer {
+  padding: 37px 0 37px 0;
   p{
     width: 50%;
-    margin: 0;
-    padding: 37px 0 37px 0;
+    margin-right: 320px;
+    float: left;
     font-family: $font-secodary;
     font-size: 1rem;
+    letter-spacing: 0.2rem;
   }
 
   .footer-social{
-    width: 25%;
-    float: right;
+    img + img {
+      margin-left: 22px; 
+    }
   }
 }
