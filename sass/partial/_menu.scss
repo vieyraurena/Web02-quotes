@@ -1,0 +1,50 @@
+.menu-collapse{
+  position: absolute;
+  top: 0;
+  background-color: #0d1013;
+
+  display: none;
+
+  a {
+    color: #626262;
+    display: block;
+    font-size: 3.125rem;
+    line-height: 5rem;
+    
+    &:hover{
+      color: $primary-color;
+      text-decoration: underline;
+    }
+  }
+
+  button {
+    margin-left: 1400px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #0d1013;
+    color: $primary-color;
+    font-size: 2rem;
+    font-weight: bold;
+
+    &:focus{
+      background-color: #626262;
+    }
+  }
+}
+
+.content-menu {
+  width: 100%;
+  padding: 150px 1200px 319px 200px ;
+}
+
+
+/*clases para usar con JS*/
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
