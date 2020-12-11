@@ -1,4 +1,4 @@
-@media (max-width: 1023px) {
+@media (max-width: 1250px) {
   /*helpears*/
   .btn {
     width: 20%;
@@ -12,9 +12,14 @@
 
   .reasons-columna {
 
+  .alive {
+    p {
+      padding-bottom: 0;
+    }
+  }
   .mahatma {
     p {
-      padding-bottom: 28px;
+      padding-bottom: 0;
     }
   }
 }
@@ -105,6 +110,7 @@
       margin: 0 auto;
       float: none;
       margin-bottom: 40px;
+      text-align: center;
     }
   }
 
@@ -112,5 +118,6 @@
     width: 50%;
     margin: 0 auto;
     padding-bottom: 40px;
+    text-align: center;
   }
 }
