@@ -13,6 +13,17 @@ a{
 h2 {
   font-family: $font-primary;
   font-size: 3.75rem;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 115%;
+    height: 0.142%;
+    width: 5%;
+    background-color: black;
+  }
 }
 
 .btn {
