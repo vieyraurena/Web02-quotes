@@ -18,6 +18,52 @@
 
 .buy-boxI {
   float: left;
+  z-index: 0;
+  position: relative;
+  .buy, .share {
+    display: none;
+  }
+
+  &:hover {
+    .hover {
+      .buy{
+        display: block;
+        font-size: 1rem;
+        a{
+          position: absolute;
+          top: 710px;
+          left: 38px;
+          color: $primary-color;
+        }
+      }
+      
+      .share {
+        display: block;
+        position: absolute;
+        top: 710px;
+        left: 416px;
+        a{
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.boxI-content{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  color: $primary-color;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  p{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
 }
 
 .buy-boxII {
@@ -35,5 +81,69 @@
   }
   img + img {
     margin-left: 4%
+  }
+}
+
+.boxII {
+  position: relative;
+
+  .boxII-content{
+    position: absolute;
+    top: 85px;
+    left: 77px;
+    font-size: 2.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    span {
+      font-size: 1.25rem;
+      font-family: Georgia;
+    }
+  }
+
+  .buy, .share {
+    display: none;
+  }
+
+  &:hover {
+    .hover {
+      font-size: 1rem;
+      font-style: normal;
+      font-family: $font-secodary;
+      .buy{
+        display: block;
+        a{
+          position: absolute;
+          top: 200px;
+          left: 38px;
+          color: $primary-color;
+        }
+      }
+      
+      .share {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 406px;
+        a{
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.boxII-uno-boy{
+  position: relative;
+  p{
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
