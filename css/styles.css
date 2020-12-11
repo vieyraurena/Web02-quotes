@@ -779,9 +779,9 @@ body {
     width: 100%;
     margin: 0 auto; }
     .reasons-columna .alive {
-      border-right: 1 solid #eae9e7; }
+      border-right: 1px solid #eae9e7; }
     .reasons-columna .mahatma {
-      border-left: 1 solid #eae9e7; }
+      border-left: 1px solid #eae9e7; }
   .box {
     width: 75%;
     margin: 0 auto;
