@@ -322,7 +322,16 @@ a {
 
 h2 {
   font-family: "Raleway";
-  font-size: 3.75rem; }
+  font-size: 3.75rem;
+  position: relative; }
+  h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 115%;
+    height: 0.142%;
+    width: 5%;
+    background-color: black; }
 
 .btn {
   width: 10%;
@@ -408,6 +417,12 @@ body {
     font-size: 3.75rem;
     margin: 0;
     font-weight: lighter; }
+    .free-content h2::after {
+      content: "";
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 0%; }
   .free-content h2 + h2 {
     font-weight: bolder;
     margin-bottom: 50px; }
