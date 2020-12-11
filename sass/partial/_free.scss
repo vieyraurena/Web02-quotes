@@ -12,6 +12,15 @@
     font-size: 3.75rem;
     margin: 0;
     font-weight: lighter;
+
+    &::after {
+      content: "";
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 0%;
+
+    }
   }
 
   h2 + h2 {
