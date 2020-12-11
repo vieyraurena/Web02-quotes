@@ -331,6 +331,8 @@ h2 {
   border: 2px solid #000000;
   text-align: center;
   margin-bottom: 141px; }
+  .btn:hover {
+    background-color: #ffeae2; }
 
 .clearfix::after {
   content: "";
@@ -364,6 +366,8 @@ body {
   padding: 9px;
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff; }
+  .menu:hover {
+    color: #000000; }
 
 .header-content {
   float: right;
@@ -380,14 +384,18 @@ body {
     font-size: 4rem;
     font-weight: bolder; }
 
-button {
-  margin-right: 10px;
-  border-style: none;
-  padding: 5px;
-  background-color: white;
-  border-radius: 15px; }
-  button:hover {
-    background-color: #000000; }
+.dots {
+  width: 250px;
+  margin: 0 auto;
+  padding: 114px; }
+  .dots button {
+    margin-right: 25px;
+    border-style: none;
+    padding: 8px;
+    background-color: #000000;
+    border-radius: 15px; }
+    .dots button:hover {
+      background-color: white; }
 
 .free-content {
   width: 67.5%;
@@ -421,8 +429,9 @@ button {
   margin-top: 47px;
   margin-bottom: 62px; }
 
-.container-rosa {
+.container {
   width: 100%;
+  height: 651px;
   margin-bottom: 134px; }
 
 .fondo {
@@ -433,19 +442,21 @@ button {
 .columna-content {
   width: 50%;
   text-align: left;
-  padding-top: 142px;
+  padding-top: 140px;
   font-size: 2.25rem; }
   .columna-content p {
     font-family: "Alegreya Sans";
     margin-bottom: 64px; }
   .columna-content span {
-    font-family: "Montserrat";
-    padding-bottom: 50px; }
+    font-family: "Montserrat"; }
   .columna-content .columna-dots {
-    margin-bottom: 78px; }
+    width: 90px;
+    margin: 28px 0 78px 0; }
     .columna-content .columna-dots button {
-      margin-right: 0;
+      margin-right: 2px;
+      padding: 5px;
       background-color: transparent;
+      border-radius: 10px;
       border: 0.5px solid #ccc; }
     .columna-content .columna-dots button:hover {
       background-color: #ccc; }
@@ -455,8 +466,7 @@ button {
   width: 50%; }
   .columna-img img {
     max-width: 100%;
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
 
 .reasons {
   font-family: "Raleway";
@@ -466,7 +476,7 @@ button {
   width: 50%; }
   .reasons-columna .box {
     border: 1px solid #eae9e7;
-    padding: 50px 0 60px 45px;
+    padding: 50px 66px 60px 45px;
     text-align: left; }
     .reasons-columna .box h3 {
       font-size: 1.8rem;
@@ -479,6 +489,16 @@ button {
     .reasons-columna .box span {
       font-size: 1.25rem;
       font-style: italic; }
+  .reasons-columna .alive {
+    border-right: 0 solid;
+    border-bottom: 0 solid; }
+    .reasons-columna .alive p {
+      padding-bottom: 28px; }
+  .reasons-columna .mahatma {
+    border-left: 0 solid;
+    border-top: 0 solid; }
+    .reasons-columna .mahatma p {
+      padding-bottom: 28px; }
 
 .uno {
   float: left; }
@@ -509,6 +529,8 @@ button {
       text-decoration-line: underline;
       text-transform: lowercase;
       font-weight: normal; }
+      .love span a:hover {
+        color: #000000; }
 
 .fondo-buy {
   background-color: #f3f4f5;
@@ -525,7 +547,38 @@ button {
     width: 100%; }
 
 .buy-boxI {
-  float: left; }
+  float: left;
+  z-index: 0;
+  position: relative; }
+  .buy-boxI .buy, .buy-boxI .share {
+    display: none; }
+  .buy-boxI:hover .hover .buy {
+    display: block;
+    font-size: 1rem; }
+    .buy-boxI:hover .hover .buy a {
+      position: absolute;
+      top: 710px;
+      left: 38px;
+      color: #ffffff; }
+  .buy-boxI:hover .hover .share {
+    display: block;
+    position: absolute;
+    top: 710px;
+    left: 416px; }
+    .buy-boxI:hover .hover .share a {
+      color: #ffffff; }
+
+.boxI-content {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif; }
+  .boxI-content p {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center; }
 
 .buy-boxII {
   width: 50%;
@@ -539,6 +592,50 @@ button {
 
 .buy-boxII-uno img + img {
   margin-left: 4%; }
+
+.boxII {
+  position: relative; }
+  .boxII .boxII-content {
+    position: absolute;
+    top: 85px;
+    left: 77px;
+    font-size: 2.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left; }
+    .boxII .boxII-content p {
+      margin: 0;
+      padding: 0; }
+    .boxII .boxII-content span {
+      font-size: 1.25rem;
+      font-family: Georgia; }
+  .boxII .buy, .boxII .share {
+    display: none; }
+  .boxII:hover .hover {
+    font-size: 1rem;
+    font-style: normal;
+    font-family: "Montserrat"; }
+    .boxII:hover .hover .buy {
+      display: block; }
+      .boxII:hover .hover .buy a {
+        position: absolute;
+        top: 200px;
+        left: 38px;
+        color: #ffffff; }
+    .boxII:hover .hover .share {
+      display: block;
+      position: absolute;
+      top: 200px;
+      left: 406px; }
+      .boxII:hover .hover .share a {
+        color: #ffffff; }
+
+.boxII-uno-boy {
+  position: relative; }
+  .boxII-uno-boy p {
+    position: absolute;
+    top: 0;
+    right: 0; }
 
 .info {
   font-family: "Montserrat";
@@ -567,7 +664,7 @@ button {
     background-color: #f2f4f5;
     margin-bottom: 20px; }
   .info-columna input[type=submit] {
-    width: 50%;
+    width: 80%;
     background-color: #ffffff;
     font-family: "Montserrat";
     font-weight: 700;
@@ -575,20 +672,155 @@ button {
     text-align: center;
     text-transform: uppercase;
     padding: 13px 25px; }
+    .info-columna input[type=submit]:hover {
+      background-color: #ffeae2; }
 
 .info-columna + .info-columna {
-  margin-left: 85px; }
+  margin-left: 4%; }
 
 .fondo-footer {
   background-color: #f2f4f5; }
 
-.footer p {
-  width: 50%;
-  margin: 0;
-  padding: 37px 0 37px 0;
-  font-family: "Montserrat";
-  font-size: 1rem; }
+.footer {
+  padding: 37px 0 37px 0; }
+  .footer p {
+    width: 50%;
+    margin-right: 320px;
+    float: left;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    letter-spacing: 0.2rem; }
+  .footer .footer-social a + a {
+    margin-left: 22px; }
 
-.footer .footer-social {
-  width: 25%;
-  float: right; }
+/*breakpoints*/
+@media (max-width: 1599px) {
+  /*tercer-bloque*/
+  .fondo {
+    float: left;
+    width: 100%;
+    background-color: #ffeae2; }
+  .columna-img {
+    margin-bottom: 134px;
+    width: 100%; } }
+
+@media (max-width: 1250px) {
+  /*helpears*/
+  .btn {
+    width: 20%; }
+  .reasons {
+    margin: 0 2.5%;
+    margin-bottom: 63px; }
+  .reasons-columna .alive p {
+    padding-bottom: 0; }
+  .reasons-columna .mahatma p {
+    padding-bottom: 0; }
+  /*buy*/
+  .buy {
+    margin: 0 2.5%; }
+  .buy-boxI {
+    width: 40%; }
+    .buy-boxI:hover .hover .buy a {
+      top: 500px; }
+    .buy-boxI:hover .hover .share {
+      top: 500px;
+      left: 316px; }
+  .boxI-content {
+    top: 50px; }
+    .boxI-content p {
+      font-size: 3.5rem; }
+    .boxI-content .boxI-hover {
+      font-size: 0.5rem; }
+      .boxI-content .boxI-hover a {
+        color: #ffffff; }
+  .boxII:hover .hover {
+    font-size: 0.8rem; }
+    .boxII:hover .hover .buy a {
+      position: absolute;
+      top: 150px;
+      left: 8px;
+      color: #ffffff; }
+    .boxII:hover .hover .share {
+      display: block;
+      position: absolute;
+      top: 150px;
+      left: 350px; }
+      .boxII:hover .hover .share a {
+        color: #ffffff; }
+  /*info*/
+  .info {
+    margin: 0 2.25%; }
+  input[type=submit] {
+    width: 0; }
+  .info-columna + .info-columna {
+    margin-left: 4%; }
+  /*footer*/
+  .footer {
+    padding: 0;
+    padding-top: 40px; }
+    .footer p {
+      width: 80%;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 40px;
+      text-align: center; }
+  .footer-social {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-align: center; } }
+
+@media (max-width: 720px) {
+  /*reasons*/
+  .reasons {
+    margin: 0 2.25%;
+    margin-bottom: 63px; }
+  .reasons-columna {
+    width: 100%;
+    margin: 0 auto; }
+    .reasons-columna .alive {
+      border-right: 1 solid #eae9e7; }
+    .reasons-columna .mahatma {
+      border-left: 1 solid #eae9e7; }
+  .box {
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 96px 60px 45px;
+    float: none; }
+  /*buy*/
+  .buy-boxI {
+    width: 100%; }
+    .buy-boxI:hover .hover .buy a {
+      top: 700px; }
+    .buy-boxI:hover .hover .share {
+      top: 700px;
+      left: 516px; }
+  .boxI-content {
+    top: 100px; }
+    .boxI-content p {
+      font-size: 5rem; }
+  .buy-boxII {
+    width: 100%; }
+  /*info*/
+  .info-columna {
+    width: 100%;
+    float: none;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center; }
+    .info-columna input {
+      width: 50%;
+      border: none;
+      padding: 14px 0 14px 19px;
+      background-color: #f2f4f5;
+      margin-bottom: 20px; }
+    .info-columna input[type=submit] {
+      width: 50%; }
+  .info-columna + .info-columna {
+    margin-left: 0;
+    margin-bottom: 5%; }
+  /*footer*/
+  .footer p {
+    width: 80%; }
+  .footer-social {
+    width: 80%; } }
