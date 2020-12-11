@@ -1,4 +1,17 @@
 @media (max-width: 720px) {
+   /*globales*/
+   h2 {
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 100%;
+      height: 0.142%;
+      width: 8%;
+      background-color: black;
+    }
+  }
+  
   /*reasons*/
   .reasons {
     margin: 0 2.25%;
