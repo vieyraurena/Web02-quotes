@@ -35,7 +35,7 @@
   }
   
   input[type=submit]{
-    width: 50%;
+    width: 80%;
     background-color: $primary-color;
     font-family: $font-secodary;
     font-weight: 700;
@@ -43,9 +43,13 @@
     text-align: center;
     text-transform: uppercase;
     padding: 13px 25px;
+
+    &:hover {
+      background-color: $fondo;
+    }
   }
 }
 
 .info-columna + .info-columna{
-  margin-left:85px;
+  margin-left: 4%;
 }
