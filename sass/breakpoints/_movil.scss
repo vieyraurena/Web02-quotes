@@ -1,0 +1,97 @@
+@media (max-width: 720px) {
+  /*reasons*/
+  .reasons {
+    margin: 0 2.25%;
+    margin-bottom: 63px;
+  }
+
+  .reasons-columna{
+    width: 100%;
+    margin: 0 auto;
+
+    .alive{
+      border-right: 1 solid $border-color;
+    }
+  
+    .mahatma {
+      border-left: 1 solid $border-color;
+    }
+  }
+  
+  .box {
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 96px 60px 45px;
+    float: none;
+  }
+
+
+  /*buy*/
+  .buy-boxI {
+    width: 100%;
+    
+    &:hover {
+      .hover {
+        .buy{
+          a{
+            top: 700px;
+          }
+        }
+        
+        .share {
+          top: 700px;
+          left: 516px;
+        }
+      }
+    }
+  }
+  
+  .boxI-content{
+    top: 100px;
+    p{
+      font-size: 5rem;
+    }
+  }
+
+  .buy-boxII {
+    width: 100%;
+  }
+
+  /*info*/
+
+  .info-columna{
+    width: 100%;
+    float: none;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+  
+    input{
+      width: 50%;
+      border: none;
+      padding: 14px 0 14px 19px;
+      background-color: $fondo-footer;
+      margin-bottom: 20px;
+    }
+    
+    input[type=submit]{
+      width: 50%;
+    }
+  }
+
+  .info-columna + .info-columna{
+    margin-left: 0;
+    margin-bottom: 5%;
+  }
+
+  /*footer*/
+  .footer {
+    p{
+      width: 80%;
+    }
+  }
+
+  .footer-social{
+    width: 80%;
+  }
+}
