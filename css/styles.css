@@ -359,6 +359,43 @@ body {
   max-width: 1400px;
   margin: 0 auto; }
 
+.menu-collapse {
+  position: absolute;
+  top: 0;
+  background-color: #0d1013;
+  display: none; }
+  .menu-collapse a {
+    color: #626262;
+    display: block;
+    font-size: 3.125rem;
+    line-height: 5rem; }
+    .menu-collapse a:hover {
+      color: #ffffff;
+      text-decoration: underline; }
+  .menu-collapse button {
+    margin-left: 1400px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #0d1013;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold; }
+    .menu-collapse button:focus {
+      background-color: #626262; }
+
+.content-menu {
+  width: 100%;
+  padding: 150px 1200px 319px 200px; }
+
+/*clases para usar con JS*/
+.visible {
+  display: block; }
+
+.hidden {
+  display: none; }
+
 .header {
   font-family: "Raleway";
   color: #ffffff;
