@@ -360,10 +360,11 @@ body {
   margin: 0 auto; }
 
 .menu-collapse {
-  position: absolute;
+  position: fixed;
   top: 0;
-  background-color: #0d1013;
-  display: none; }
+  background-color: #000000;
+  display: none;
+  z-index: 999; }
   .menu-collapse a {
     color: #626262;
     display: block;
@@ -374,7 +375,7 @@ body {
       text-decoration: underline; }
   .menu-collapse button {
     margin-left: 1400px;
-    margin-top: 60px;
+    margin-top: 50px;
     border: none;
     border-radius: 10px;
     outline: none;
@@ -399,7 +400,7 @@ body {
 .header {
   font-family: "Raleway";
   color: #ffffff;
-  background-image: url("../../img/01.jpg");
+  background-image: url("../img/01.jpg");
   background-size: cover; }
 
 .menu {
@@ -560,7 +561,7 @@ body {
 
 .love {
   width: 100%;
-  background-image: url("../../img/03.jpg");
+  background-image: url("../img/03.jpg");
   background-size: cover; }
   .love .love-content {
     width: 58%;
